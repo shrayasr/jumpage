@@ -10,8 +10,18 @@ So, what should i do ?
 2. Open up index.html in your fav-est code editor
 3. Edit away :) Its pretty self explanatory.
 
+Uhm, How do i use it ? 
+------------------------
+If you're using firefox , get [this][firefoxaddon] addon
+
+If you're using chrome , get [this][chromeaddon] extension
+
+Change your new tab page , and you're good to go!
+
 Who Are You?
 ------------
 I'm [Shrayas][blog] and I _think_ i engineer software .
 
 [blog]:http://www.shrayas-diaries.blogspot.com
+[firefoxaddon]:https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/
+[chromeaddon]:https://chrome.google.com/webstore/detail/icpgjfneehieebagbmdbhnlpiopdcmna
