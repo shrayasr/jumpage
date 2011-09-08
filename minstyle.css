@@ -1,0 +1,65 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: #2e2e2e;
+}
+
+#carea
+{
+    margin: 0 auto;
+	width:400px;
+    margin-top: 100px;
+}
+
+h1
+{
+    color: #c0c0c0;
+    border-bottom: 2px solid #2e2e2e;
+    font: 30px "Trebuchet MS", Tahoma, Verdana;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+p
+{
+	display:none;
+    text-align: left;
+    font: 11px Tahoma;
+    color: #8f8f8f;
+    padding-top: 2px;
+}
+
+#sitesbox ul
+{
+    background: #2e2e2e;
+	border-left: 3px solid #c0c0c0;
+	margin-left: 10px;
+}
+
+#sitesbox ul li
+{
+    padding: 10px;
+    padding-left: 7px;
+    font: 14px Consolas,"Lucidia Console", Tahoma, Verdana;
+    color: #8dc63f;
+	background: #000;
+	margin: 10px;
+}
+
+#sitesbox ul li span
+{
+    color: #c0c0c0;
+}

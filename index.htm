@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Goto:</title>
+        <link rel="stylesheet" type="text/css" href="minstyle.css" media="screen" />
+		<script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+		<script type="text/javascript" charset="utf-8" src="jquery-hotkeys.js"></script>
+
+        <script type="text/javascript" charset="utf-8">
+            $(function(){
+
+                $(document).focus();
+
+                var url="";
+
+                $(document).bind('keypress','f',function(evt){
+                    url="http://www.facebook.com"; 
+                    $(location).attr('href',url);
+                });
+                
+                $(document).bind('keypress','g',function(evt){
+                    url="http://www.gmail.com"; 
+                    $(location).attr('href',url);
+                });
+
+                $(document).bind('keypress','r',function(evt){
+                    url="http://reader.google.com"; 
+                    $(location).attr('href',url);
+                });
+
+                $(document).bind('keypress','y',function(evt){
+                    url="http://www.youtube.com"; 
+                    $(location).attr('href',url);
+                });
+
+                $(document).bind('keypress','+',function(evt){
+                    url="file:///Users/SKun/tiddly/empty.html";
+                    $(location).attr('href',url);
+                });
+
+                });
+        </script>
+
+    </head>
+
+    <body>
+        <div id="carea">
+            <div id="sitesbox">
+                <h1>Goto:</h1>
+                <ul>
+                    <li>F:<span>acebook</span></li>
+                    <li>G:<span>mail</span></li>
+                    <li>R:<span>eader</span></li>
+                    <li>Y:<span>outube</span></li>
+                    <li>+<span>+</span></li>
+               </ul>
+            </div>
+            <p>(c) Shrayas Rajagopal 2011</p>
+        </div> <!--carea end-->
+    </body>
+</html>
