@@ -6,7 +6,7 @@
 
 body
 {
-    background: #2e2e2e;
+    background: #e9e9e9;
 }
 
 #carea
@@ -18,10 +18,25 @@ body
 
 h1
 {
-    color: #c0c0c0;
+	background: #727272;
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+	font: 30px "Trebuchet MS", Tahoma, Verdana;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 0 0 2px #dbdbdb;
+	display:none;
+}
+
+/*
+h1
+{
+    color: #000;
     border-bottom: 2px solid #2e2e2e;
     font: 30px "Trebuchet MS", Tahoma, Verdana;
 }
+*/
 
 ul
 {
@@ -33,7 +48,15 @@ a
     text-decoration:none;
 }
 
-p
+#message
+{
+	text-align:center;
+	font: italic 14px Georgia,"Times New Roman";
+	color: #b2b2b2;
+	margin: 20px;
+}
+
+p.chummap
 {
 	display:none;
     text-align: left;
@@ -42,9 +65,39 @@ p
     padding-top: 2px;
 }
 
+#sitesbox
+{
+	background: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #dbdbdb;
+	padding: 20px;
+	border: 1px solid #dbdbdb;
+}
+
 #sitesbox ul
 {
-    background: #2e2e2e;
+	padding: 15px;
+}
+
+#sitesbox ul li
+{
+	padding: 10px;
+	margin: 10px;
+	color: #308adb;
+	font: 16px Consolas,"Lucidia Console", Tahoma, Verdana;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+#sitesbox ul li span
+{
+	color: #000;
+}
+
+/*
+#sitesbox ul
+{
+    background: #e9e9e9;
 	border-left: 3px solid #c0c0c0;
 	margin-left: 10px;
 }
@@ -54,12 +107,13 @@ p
     padding: 10px;
     padding-left: 7px;
     font: 14px Consolas,"Lucidia Console", Tahoma, Verdana;
-    color: #8dc63f;
-	background: #000;
+    color: #ba1a1a;
+	background: #fff;
 	margin: 10px;
 }
 
 #sitesbox ul li span
 {
-    color: #c0c0c0;
+    color: #000;
 }
+*/

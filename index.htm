@@ -32,11 +32,6 @@
                     $(location).attr('href',url);
                 });
 
-                $(document).bind('keypress','+',function(evt){
-                    url="file:///Users/SKun/tiddly/empty.html";
-                    $(location).attr('href',url);
-                });
-
                 });
         </script>
 
@@ -44,17 +39,19 @@
 
     <body>
         <div id="carea">
+
             <div id="sitesbox">
-                <h1>Goto:</h1>
+		        <div style="text-align:center"><img src="logo.jpg" /></div>
+				<h1>Goto:</h1>
                 <ul>
                     <li>F:<span>acebook</span></li>
                     <li>G:<span>mail</span></li>
                     <li>R:<span>eader</span></li>
                     <li>Y:<span>outube</span></li>
-                    <li>+<span>+</span></li>
                </ul>
             </div>
-            <p>(c) Shrayas Rajagopal 2011</p>
+ 			<p id="message">R.I.P Steve Jobs (1955-2011)</p>
+            <p class="chummap">(c) Shrayas Rajagopal 2011</p>
         </div> <!--carea end-->
     </body>
 </html>
