@@ -18,10 +18,6 @@ If you're using chrome , get [this][chromeaddon] extension
 
 Change your new tab page , and you're good to go!
 
-Who Are You?
-------------
-I'm [Shrayas][blog] and I _think_ i engineer software .
-
 [blog]:http://www.shrayas-diaries.blogspot.com
 [firefoxaddon]:https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/
 [chromeaddon]:https://chrome.google.com/webstore/detail/icpgjfneehieebagbmdbhnlpiopdcmna
